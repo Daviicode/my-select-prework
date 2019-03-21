@@ -1,3 +1,6 @@
 def my_select(collection)
- # your code here!
+  new_collection = []
+  collection.select(num) do { |num| new_collection << yield(num)}
+end
+new_collection
 end

@@ -4,7 +4,8 @@ def my_select(collection)
   while collection.length > i
      if collection[i].even == true
        new_collection << yield(collection[i])
-    i += 1
+       i += 1
+     end
   end
 new_collection
 end
